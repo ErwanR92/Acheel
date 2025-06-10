@@ -7,6 +7,9 @@ import cv2
 import io
 import json
 
+service_account_info = dict(st.secrets["google_service_account"])
+client = vision.ImageAnnotatorClient.from_service_account_info(service_account_info)
+
 # Configuration initiale
 st.set_page_config(page_title="Vérification Sinistres", layout="wide")
 
