@@ -11,6 +11,14 @@ Contrôle de cohérence entre le mail et les documents
 Rapport global structuré (format JSON) pour exploitation ou archivage
 Synthèse visuelle pour le gestionnaire (voyants de cohérence)
 
+0. installation des dépendances
+
+    pip install -r requirements.txt
+
+    Dans le terminal au sein du dossier assurance_test_technique_partie_2
+
+    Pour installer les dépendances nécessaires à l'application.
+
 1. Lancer l’application
 
     bash : streamlit run app.py 
